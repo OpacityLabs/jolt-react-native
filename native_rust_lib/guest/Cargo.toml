@@ -11,5 +11,5 @@ path = "./src/lib.rs"
 guest = []
 
 [dependencies]
-jolt = { package = "jolt-sdk", git = "https://github.com/Hmac512/jolt", branch = "fib-react-native"}
+jolt = { package = "jolt-sdk", git = "https://github.com/Hmac512/jolt", branch = "allow-providing-binary"}
 

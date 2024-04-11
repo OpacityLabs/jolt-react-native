@@ -10,11 +10,10 @@ export default function App() {
   const prove = useCallback(async () => {
     setIsProving(true);
     const proof = await joltProve(value);
-    setIsProving(false);
     console.log("Proof", proof);
     const isValid = await joltVerify(proof as string);
     console.log("Is proof valid", isValid);
-
+    setIsProving(false);
     setIsValid(isValid);
 
   }, [setValue, isProving, setIsProving, setIsValid, value])

@@ -366,7 +366,7 @@ dependencies = [
 [[package]]
 name = "common"
 version = "0.2.0"
-source = "git+https://github.com/Hmac512/jolt?branch=fib-react-native#8bf3b5bd265ffee5cb499721bea80a7f2c96c6a1"
+source = "git+https://github.com/Hmac512/jolt?branch=allow-providing-binary#818af7021114b42b66669090a95c39ff53bf9218"
 dependencies = [
  "ark-serialize",
  "serde",
@@ -724,7 +724,7 @@ checksum = "49f1f14873335454500d59611f1cf4a4b0f786f9ac11f4312a78e4cf2566695b"
 [[package]]
 name = "jolt-core"
 version = "0.1.0"
-source = "git+https://github.com/Hmac512/jolt?branch=fib-react-native#8bf3b5bd265ffee5cb499721bea80a7f2c96c6a1"
+source = "git+https://github.com/Hmac512/jolt?branch=allow-providing-binary#818af7021114b42b66669090a95c39ff53bf9218"
 dependencies = [
  "ark-bn254",
  "ark-ec",
@@ -765,7 +765,7 @@ dependencies = [
 [[package]]
 name = "jolt-sdk"
 version = "0.1.0"
-source = "git+https://github.com/Hmac512/jolt?branch=fib-react-native#8bf3b5bd265ffee5cb499721bea80a7f2c96c6a1"
+source = "git+https://github.com/Hmac512/jolt?branch=allow-providing-binary#818af7021114b42b66669090a95c39ff53bf9218"
 dependencies = [
  "ark-bn254",
  "ark-ec",
@@ -783,7 +783,7 @@ dependencies = [
 [[package]]
 name = "jolt-sdk-macros"
 version = "0.1.0"
-source = "git+https://github.com/Hmac512/jolt?branch=fib-react-native#8bf3b5bd265ffee5cb499721bea80a7f2c96c6a1"
+source = "git+https://github.com/Hmac512/jolt?branch=allow-providing-binary#818af7021114b42b66669090a95c39ff53bf9218"
 dependencies = [
  "common",
  "postcard",
@@ -1432,7 +1432,7 @@ dependencies = [
 [[package]]
 name = "tracer"
 version = "0.2.0"
-source = "git+https://github.com/Hmac512/jolt?branch=fib-react-native#8bf3b5bd265ffee5cb499721bea80a7f2c96c6a1"
+source = "git+https://github.com/Hmac512/jolt?branch=allow-providing-binary#818af7021114b42b66669090a95c39ff53bf9218"
 dependencies = [
  "common",
  "fnv",

@@ -15,7 +15,7 @@ codegen-units = 1
 lto = "fat"
 
 [dependencies]
-jolt = { package = "jolt-sdk",  git = "https://github.com/Hmac512/jolt", branch = "fib-react-native", features = ["std"] }
+jolt = { package = "jolt-sdk",  git = "https://github.com/Hmac512/jolt", branch = "allow-providing-binary", features = ["std"] }
 guest = { path = "./guest" }
 proc-macro2 = "1.0.79"
 serde = "1.0.197"
