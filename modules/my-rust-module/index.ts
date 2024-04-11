@@ -20,12 +20,12 @@ export function hello(): string {
   return MyRustModule.hello();
 }
 
-export async function joltProve(a: number): Promise<String> {
-  return await MyRustModule.jolt_prove(a);
+export async function joltProve(n: number): Promise<String> {
+  return await MyRustModule.jolt_prove(n);
 }
 
-export async function joltVerify(a: string): Promise<boolean> {
-  return await MyRustModule.verify(a);
+export async function joltVerify(proofString: string): Promise<boolean> {
+  return await MyRustModule.jolt_verify(proofString);
 }
 
 export async function setValueAsync(value: string) {
